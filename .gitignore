@@ -1,0 +1,6 @@
+reports/
+logs/
+testdata/
+target/
+screenshots/
+pom.xml
