@@ -1,12 +1,20 @@
 package pages;
+
 import java.util.ArrayList;
 import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
+
+
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+
+
 import uistore.HomepageLocators;
 import utils.LogHelper;
 import utils.Main;
@@ -116,7 +124,7 @@ public class HomepageActionPage {
         helper.ElementClick(HomepageLocators.gift);
         helper.navBack();
     }
- 
+
     private void clicksprivacy() {
         JavascriptExecutor js = (JavascriptExecutor) Main.driver;
         js.executeScript("window.scrollBy(0,8000)", "");
@@ -124,9 +132,12 @@ public class HomepageActionPage {
         helper.ElementClick(HomepageLocators.privacy);
         helper.navBack();
     }
+
  
+
     public void footerTestcase02(ExtentTest test) {
- 
+
+
         footerIterationTwo();
         test.log(Status.PASS, "Testcase passed for footer");
         clicksGifts();
@@ -463,4 +474,8 @@ public class HomepageActionPage {
         }
     }
 
+
+
+
 }
+

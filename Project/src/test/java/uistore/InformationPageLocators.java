@@ -21,9 +21,11 @@ public class InformationPageLocators {
 
     public static By clickregister = By.xpath("//button[contains(text(),'Register')]");
 
-    //// Shubam
+
+    
     public static By VerifyHomeServicesHeading = By.xpath("//h1[text()='Home Services']");
-    // public static By
+   
+
 
     public static By flooringclick = By.xpath("//a[text()=' Flooring ']");
     public static By VerifyFlooringInstallationheading = By.xpath("//h1[text()='Flooring Installation']");
@@ -41,7 +43,7 @@ public class InformationPageLocators {
     public static By VerifyHVACServicesHeading = By.xpath("//h1[text()='HVAC Services']");
     public static By inputfieldonVerificationPage = By.cssSelector("input[name='postal']");
 
-    // kaustubh
+
     public static By creditCLick = By.xpath("(//a[@class='sui-text-sm sui-mb-2 sui-underline'])[2]");
 
     public static By applyNowClick = By.xpath("//a[text()='Apply Now']");
@@ -70,4 +72,6 @@ public class InformationPageLocators {
 
     public static By continueClick4 = By.id("contToSubmit");
 
+
 }
+

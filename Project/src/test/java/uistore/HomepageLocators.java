@@ -1,4 +1,5 @@
 package uistore;
+
 import org.openqa.selenium.By;
 
 public class HomepageLocators {
@@ -82,3 +83,5 @@ public class HomepageLocators {
         public static By gift = By.xpath("//a[@title='Gift Cards']");
         public static By privacy = By.xpath("//a[@title='Privacy & Security Center']");
 }
+    
+

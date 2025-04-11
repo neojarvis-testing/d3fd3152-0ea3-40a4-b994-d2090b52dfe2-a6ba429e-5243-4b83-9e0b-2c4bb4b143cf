@@ -80,8 +80,12 @@ public class Main {
         {
             driver.manage().window().maximize();
             driver.get(prop.getProperty("url"));
+
             driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+           
+
 
         }
 
@@ -90,4 +94,6 @@ public class Main {
 
     }
 
+
 }
+
