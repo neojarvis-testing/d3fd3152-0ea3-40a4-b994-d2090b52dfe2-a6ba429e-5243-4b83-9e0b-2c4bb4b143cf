@@ -10,6 +10,11 @@ import org.testng.Assert;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
+
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+
+
 import uistore.HomepageLocators;
 import utils.LogHelper;
 import utils.Main;
@@ -128,7 +133,10 @@ public class HomepageActionPage {
         helper.navBack();
     }
 
+ 
+
     public void footerTestcase02(ExtentTest test) {
+
 
         footerIterationTwo();
         test.log(Status.PASS, "Testcase passed for footer");
@@ -466,4 +474,8 @@ public class HomepageActionPage {
         }
     }
 
+
+
+
 }
+

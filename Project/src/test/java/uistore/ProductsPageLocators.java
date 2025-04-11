@@ -10,7 +10,7 @@ public class ProductsPageLocators {
     public static By adjustablewrenches =By.xpath("(//span[contains(text(),'Adjustable Wrenches')])");
     public static By impactWrenches =By.xpath("(//span[contains(text(),'Impact Wrenches')])[1]");
 
-     
+
      public static By productpageclickonconcrete=By.xpath("(//a[contains(text(),'Concrete, Cement & Masonry')])");
  
      public static By productpageclickondecking=By.xpath("(//a[contains(text(),'Decking')])");
@@ -20,4 +20,7 @@ public class ProductsPageLocators {
      public static By productpageclickonshopalldrywall=By.xpath("//a[contains(text(),'Shop All Drywall')]");
  
      public static By productpageclickonallfilters=By.xpath("//div[@class='sui-pl-2 sui-text-nowrap']//p[contains(text(),'All Filters')]");
+
 }
+
+

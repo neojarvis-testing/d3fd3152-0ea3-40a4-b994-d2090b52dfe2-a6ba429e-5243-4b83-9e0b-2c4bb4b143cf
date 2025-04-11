@@ -106,8 +106,12 @@ public class InformationActionPage {
         clickFreeWorkshops();
         clickKidWorkshop();
         clickRegister();
-        test.log(Status.PASS,"Explored workshops under location section");
-        test.log(Status.INFO,"Various sections under navigation bar is done");
+
+        test.log(Status.PASS, "Explored workshops under location section");
+        test.log(Status.INFO, "Various sections under navigation bar is done");
+
+        
+
 
     }
 
@@ -199,7 +203,9 @@ public class InformationActionPage {
             clickActionOnBathroom();
             clickActionOnDoorsAndWindow();
             clickActionOnHeatingAndCooling();
-            test.log(Status.INFO,"Different operations carried out on Black Friday Sale");
+
+            test.log(Status.INFO, "Different operations carried out on Black Friday Sale");
+
         } catch (Exception e) {
             e.getMessage();
         }
@@ -339,4 +345,7 @@ public class InformationActionPage {
         residenceStatus(test);
     }
 
+
 }
+
+

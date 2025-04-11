@@ -1,5 +1,4 @@
 package utils;
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -19,6 +18,7 @@ public class LogHelper {
 
             FileAppender fileAppender = new FileAppender(new PatternLayout("%d{ISO8601} %-5p %c - %m%n"), logFileName,
                     true);
+
             logger.addAppender(fileAppender);
         } catch (Exception e) {
             logger.error("Failed to initialize logger file appender", e);
@@ -29,8 +29,10 @@ public class LogHelper {
         logger.info(message);
     }
 
+
     public static void error(String message) {
         logger.error(message);
     }
+
 
 }
